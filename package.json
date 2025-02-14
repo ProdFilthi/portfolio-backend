@@ -1,0 +1,38 @@
+{
+  "name": "portfolio-backend",
+  "version": "1.0.0",
+  "description": "This is the backend for my portfolio website",
+  "keywords": [
+    "Portfolio",
+    "website",
+    "backend"
+  ],
+  "homepage": "https://github.com/ProdFilthi/portfolio-backend#readme",
+  "bugs": {
+    "url": "https://github.com/ProdFilthi/portfolio-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProdFilthi/portfolio-backend.git"
+  },
+  "license": "ISC",
+  "author": "programmer filthi",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.7",
+    "eslint": "^9.20.1",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.5.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongodb": "^6.13.0",
+    "mongoose": "^8.10.0"
+  }
+}
